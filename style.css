@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, san-serif;
+}
+body{
+    font-family: Copperplate;
+}
+nav{
+    background: rgb(0, 168, 50);
+    height: 1000px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    padding: 0 450px;
+    font-weight: bold;
+    float: right;
+    margin-right: 0px;
+    background: #DA0C0C;
+    height: 100px;
+    width: 100%;
+}
+nav ul{
+    float: left;
+    margin-right: 65px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30spx;
+    margin: 0 40px;
+    float: left;
+    margin-left: 140px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+ul h1{
+    color: rgb(0, 238, 255);
+    font-size: 25px;
+    padding: 20px 370px;
+    border-radius: 3px;
+    text-transform: uppercase; 
+}
+ul h5{
+    color: rgb(0, 238, 255);
+    font-size: 15px;
+    padding: 30px 530px;
+    border-radius: 3px;
+    text-transform: uppercase; 
+}
+ul h3{
+    color: drgb(0, 238, 255);
+    font-size: 22px;
+    padding: 30px 560px;
+    border-radius: 3px;
+    text-transform: uppercase; 
+}
+ul h4{
+    color: rgb(0, 238, 255);
+    font-size: 18px;
+    padding: 10px 520px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(0, 238, 255);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+    float: right;
+    line-height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px; 
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
